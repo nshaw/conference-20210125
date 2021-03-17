@@ -10,4 +10,4 @@
 
 <#-- This is the custom element -->
 <@wp.info key="currentLang" var="currentLangVar" />
-<conference-form service-url="/nathanshaw/conference/0-0-1-snapshot"/>
+<conference-form locale="${currentLangVar}" service-url="/nathanshaw/conference/0-0-1-snapshot" />
